@@ -221,6 +221,86 @@
         margin: 20px;
        
        }
-      }
-    
+  .banner-background {
+    max-width: 440px;
+    height: auto; /* height adjusts to content */
+    margin: 0 auto;
+    background-size: cover; /* fill the area like desktop */
+    background-position: center center; /* center image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 
+  .banner {
+    flex-direction: column;
+    margin: 0;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .banner-image {
+    width: 220px;
+    height: 220px;
+    margin: 12px 0 20px 0;
+  }
+
+  .banner-mike {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin-bottom: 220px;
+  }
+  .badge{
+    position: absolute;
+   padding: 8px 16px;
+   gap: 10px;
+   border-radius: 1000px;
+   background-color: #00FF88;
+   color: #1A0B2E;
+   font-size: 1.2rem;
+   font-weight: 600;
+   border: none;
+   top: 2%;
+   right:95px;
+  }
+.banner-content{
+   max-width: 350px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+justify-content: center;
+align-items: center;
+  
+}
+.banner-title{
+    font-size: 2.5rem;
+
+  }
+  .banner-description{
+    font-size: 0.8;
+  }
+    .banner-btn1{
+      max-width: 201px;
+      font-size:0.9rem;
+      padding: 12px 20px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px; 
+      border-radius: 1000px;
+      font-weight: 600;
+      color:#FFFFFF ;
+
+  }
+    .banner-mike{
+    position: absolute;
+     top:20%;
+}
+    }
