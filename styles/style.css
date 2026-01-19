@@ -114,27 +114,87 @@
 
   .banner-mike{
     position: absolute;
-   
+   margin-bottom: 67px;
    
 
   }
-  /* .banner-content{
-   
+ .banner-content{
+   max-width: 550px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
-  } */
+  } 
 
-/* .banner-title{
+.banner-title{
+    font-size: 3.70rem;
+    font-weight: 800;
+    gap: 8px;
 
+  }
+
+  .banner-description{
+    font-size: 1rem;
+    font-weight:400;
+    margin-bottom: 24px;
+  }
+
+  .badge{
+    position: absolute;
+   padding: 8px 16px;
+   border-radius: 1000px;
+   background-color: #00FF88;
+   color: #1A0B2E;
+   font-size: 1.2rem;
+   font-weight: 600;
+   top: 38%;
+   right:41%;
+   border: none;
+
+  }
+  .banner-btns{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
   }
 
   .banner-btn1{
+  background: linear-gradient(to top, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      font-size:1rem;
+      padding: 12px 20px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px; 
+      border-radius: 1000px;
+      font-weight: 600;
+      color:#FFFFFF ;
 
   }
 
   .banner-btn2{
+     background-color: transparent;
+      border: 1px solid #00FF88;
+      display: inline-flex;
+      align-items: center;
+      font-size:1rem;
+      padding: 12px 20px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px; 
+      border-radius: 1000px;
+      font-weight: 600;
+      color: #00FF88 ;
+      width: 147px;
 
   }
-  */
  
 
 
