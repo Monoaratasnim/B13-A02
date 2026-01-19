@@ -38,7 +38,10 @@
    background-clip: text;
    color: transparent;
 }
-
+section
+{
+    margin: 0 auto;
+}
 .nav-links {
      gap: 32px;
      max-width: 218px;
@@ -88,6 +91,7 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+ text-align: center;
 }
 
 
@@ -109,7 +113,7 @@
     width: 350px;
     height: 350px;
     margin: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
 
   .banner-mike{
@@ -124,6 +128,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-top: 40px;
 
   } 
 
@@ -148,7 +153,7 @@
    color: #1A0B2E;
    font-size: 1.2rem;
    font-weight: 600;
-   top: 38%;
+   top: 25%;
    right:41%;
    border: none;
 
@@ -195,9 +200,72 @@
       width: 147px;
 
   }
- 
+ /* About section */
+.about{
+  max-width: 1600px;
+  margin: 0 auto;           
+  padding: 50px 120px 200px; 
+}
+
+.about-content{
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;         
+}
 
 
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.about-description{
+  font-size: 0.8rem;
+  font-weight: 300;  
+  line-height: 20px;
+  text-align: center;
+}
+
+
+.line-border{
+  width: 1200px;
+  margin: 0 auto 80px; 
+  border-bottom: 2px solid #604c7e;
+}
+
+.static-items{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;         
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+
+.item{
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.item-rating{
+    font-size: 3rem;
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+.item-description{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #FFFFFF;
+
+}
 
 
 
@@ -223,10 +291,10 @@
        }
   .banner-background {
     max-width: 440px;
-    height: auto; /* height adjusts to content */
+    height: auto; 
     margin: 0 auto;
-    background-size: cover; /* fill the area like desktop */
-    background-position: center center; /* center image */
+    background-size: cover; 
+    background-position: center center; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,4 +371,52 @@ align-items: center;
     position: absolute;
      top:20%;
 }
-    }
+
+  .about{
+    padding: 40px 20px 80px;
+  }
+
+  .about-content{
+    max-width: 100%;
+    margin-bottom: 40px;
+    gap: 12px;
+  }
+
+  .about-title{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-description{
+    font-size: 0.85rem;
+    line-height: 22px;
+    max-width: 90%;
+  }
+
+  .line-border{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .static-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 24px;
+    max-width: 100%;
+  }
+
+  .item{
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .item-rating{
+    font-size: 2rem;
+  }
+
+  .item-description{
+    font-size: 0.85rem;
+  }
+}
+
+    
