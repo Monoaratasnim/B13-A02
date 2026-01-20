@@ -84,7 +84,6 @@ section
 
   /* Banner CSS */
  .banner-background {
-    border: 3px solid red;
   max-width: 1600px;
   height: 760px;
   background-image: url("../assets/hero-bg.png");
@@ -372,7 +371,126 @@ section
     gap: 4px;
      margin-right: auto;
 }
+.featured-host{
+    max-width: 1600px;
+    height: auto;
 
+}
+.featured-title{
+    font-size:3rem;
+   font-weight: 700;
+   text-align: center;
+   padding-top: 120px;
+}
+.video-container{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding-top: 40px;
+  padding-bottom: 120px;
+
+}
+iframe{
+    align-items: center;
+   
+     width: 100%;
+}
+
+.feature-episode {
+    max-width: 380px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    overflow: hidden;  
+     border-radius: 20px;
+       margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.epi-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 24px;
+    margin-right: auto;
+
+}
+.epi-description{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px 24px;
+    margin-right: auto;
+}
+.time{
+    font-size: 0.8rem;
+    font-weight: 300;
+    display: flex;
+    gap: 6px;
+    margin-right: auto;
+    color: #00FF88;
+    padding: 24px;
+   
+}
+
+.host-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom:40px ;
+
+}
+.host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+}
+.host-image{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+.host-name{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: auto;
+}
+.host-details{
+    font-size:1rem;
+    font-weight: 300;
+    margin-top: 18px;
+}
+.media-icons{
+   margin: 0 auto;
+   display: flex;
+   margin-right: auto;
+   gap: 15px;
+    margin-top: 18px;
+  
+   
+
+   
+}
+.icon-m{
+     border: 1px solid #533C72;
+     border-radius: 20px;
+     width: 15px;
+     height: 15px;
+     padding: 10px;
+}
 
     /* Responsive  */
     @media screen and (max-width:576px){
@@ -534,6 +652,49 @@ align-items: center;
              font-size: 2rem;
              padding-top: 40px;
             }
-        }
+            .video-container{
+                  display: block;
+                  grid-template-columns: repeat(1,1fr);
+               
+             }
+             .featured-title{
+                padding-top: 40px;
+                font-size: 2rem;
+             }
+             .feature-episode{
+                width: 100%;
+                  margin-top: 15px;
+             }
+             .host-container{
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+              
+             }
+             .host-image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             }
+             .host-name{
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+             }
+             .host-details{
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+             }
+             .media-icons
+             { display: flex;
+                justify-content: center;
+                align-items: center;
+  
+             }
+         
+}
 
-    
+            
