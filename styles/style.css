@@ -116,12 +116,25 @@ section
    
   }
 
-  .banner-mike{
-    position: absolute;
-   margin-bottom: 120px;
-   
 
+   .banner-mike{
+  position: absolute;
+  margin-bottom: 120px;
+  transform-origin: center;
+  animation: spin 1.5s ease-in-out forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+  
  .banner-content{
    max-width: 550px;
    display: flex;
@@ -491,8 +504,10 @@ iframe{
      padding: 10px;
 }
 .footer-background{
+
+border: 1px solid #1A0B2E;
   max-width: 1600px;
-  height: 412px;
+  height: 450px;
   background-image: url("../assets/footer-bg.png");
   padding-top: 20px;
   margin: 0 auto;
@@ -750,7 +765,7 @@ align-items: center;
 }
       
               .footer-background{
-               width: 100%;
+               width: 440px;
                height: auto;
                background-image: url("../assets/footer-bg.png");
                padding-top: 15px;
