@@ -772,27 +772,28 @@ align-items: center;
                text-align: center;
                background-size: cover;
                margin-top: 70px;
+               
       } 
-     .footer-container{
-           padding: 80px;
-          text-align: center;
-          padding-top: 0;
+              .footer-container{
+               padding: 80px;
+               text-align: center;
+               padding-top: 0;
 }
 
 
-          .footer-title{
-          font-size: 0.9rem;
-          font-weight: 500;
-          color: #FFFFFF;
+               .footer-title{
+                font-size: 0.9rem;
+                font-weight: 500;
+                color: #FFFFFF;
     
 }
-           .footer-line{
-             font-size: 0.8rem;
-             font-weight: 300;
-             color: #FAFAFA;
-             padding:15px;
-             text-align: center;
-             gap: 20px;
+               .footer-line{
+                font-size: 0.8rem;
+                font-weight: 300;
+                color: #FAFAFA;
+                padding:15px;
+                text-align: center;
+                gap: 20px;
 }
 
 }
